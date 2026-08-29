@@ -1,0 +1,17 @@
+{
+    "name": "MetaCricket.CareerMode",
+    "rootNamespace": "MetaCricket.CareerMode",
+    "references": [
+        "MetaCricket.Core",
+        "MetaCricket.MatchEngine"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

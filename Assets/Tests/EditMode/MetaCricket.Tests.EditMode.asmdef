@@ -1,0 +1,26 @@
+{
+    "name": "MetaCricket.Tests.EditMode",
+    "rootNamespace": "MetaCricket.Tests.EditMode",
+    "references": [
+        "MetaCricket.Core",
+        "MetaCricket.ShotDetection",
+        "MetaCricket.MotionDetection",
+        "MetaCricket.MatchEngine",
+        "MetaCricket.BallPhysics"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

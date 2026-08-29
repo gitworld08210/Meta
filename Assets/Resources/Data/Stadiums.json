@@ -1,0 +1,184 @@
+{
+  "stadiums": [
+    {
+      "stadiumId": "lords",
+      "name": "Lord's Cricket Ground",
+      "location": "London, England",
+      "type": "international",
+      "capacity": 30000,
+      "pitchType": "fast",
+      "pitchBehavior": {
+        "seam": 0.8,
+        "spin": 0.3,
+        "bounce": 0.9,
+        "pace": 0.85
+      },
+      "visualTheme": "classic_english",
+      "skyboxPreset": "overcast_london",
+      "description": "The Home of Cricket. Historic venue with a slope and lush outfield.",
+      "unlockStage": 7,
+      "ambience": "traditional",
+      "outfieldSpeed": 0.7
+    },
+    {
+      "stadiumId": "mohali",
+      "name": "PCA Stadium, Mohali",
+      "location": "Chandigarh, India",
+      "type": "international",
+      "capacity": 26000,
+      "pitchType": "balanced",
+      "pitchBehavior": {
+        "seam": 0.6,
+        "spin": 0.5,
+        "bounce": 0.7,
+        "pace": 0.65
+      },
+      "visualTheme": "modern_indian",
+      "skyboxPreset": "clear_day_india",
+      "description": "A modern Indian venue known for competitive pitches and passionate crowds.",
+      "unlockStage": 4,
+      "ambience": "energetic",
+      "outfieldSpeed": 0.8
+    },
+    {
+      "stadiumId": "mcg",
+      "name": "Melbourne Cricket Ground",
+      "location": "Melbourne, Australia",
+      "type": "international",
+      "capacity": 100024,
+      "pitchType": "fast",
+      "pitchBehavior": {
+        "seam": 0.7,
+        "spin": 0.4,
+        "bounce": 0.95,
+        "pace": 0.8
+      },
+      "visualTheme": "australian_arena",
+      "skyboxPreset": "sunny_melbourne",
+      "description": "The cathedral of Australian sport. Massive ground with extra bounce and carry.",
+      "unlockStage": 7,
+      "ambience": "roaring_crowd",
+      "outfieldSpeed": 0.85
+    },
+    {
+      "stadiumId": "eden_gardens",
+      "name": "Eden Gardens",
+      "location": "Kolkata, India",
+      "type": "international",
+      "capacity": 68000,
+      "pitchType": "balanced",
+      "pitchBehavior": {
+        "seam": 0.5,
+        "spin": 0.6,
+        "bounce": 0.6,
+        "pace": 0.55
+      },
+      "visualTheme": "historic_indian",
+      "skyboxPreset": "humid_kolkata",
+      "description": "The Mecca of Indian cricket. An iconic venue with unmatched atmosphere.",
+      "unlockStage": 5,
+      "ambience": "electric",
+      "outfieldSpeed": 0.75
+    },
+    {
+      "stadiumId": "wankhede",
+      "name": "Wankhede Stadium",
+      "location": "Mumbai, India",
+      "type": "international",
+      "capacity": 33108,
+      "pitchType": "balanced",
+      "pitchBehavior": {
+        "seam": 0.5,
+        "spin": 0.55,
+        "bounce": 0.65,
+        "pace": 0.6
+      },
+      "visualTheme": "mumbai_skyline",
+      "skyboxPreset": "coastal_evening",
+      "description": "Mumbai's fortress. Flat batting pitches with coastal conditions aiding swing.",
+      "unlockStage": 5,
+      "ambience": "passionate",
+      "outfieldSpeed": 0.8
+    },
+    {
+      "stadiumId": "chinnaswamy",
+      "name": "M. Chinnaswamy Stadium",
+      "location": "Bangalore, India",
+      "type": "international",
+      "capacity": 40000,
+      "pitchType": "balanced",
+      "pitchBehavior": {
+        "seam": 0.4,
+        "spin": 0.4,
+        "bounce": 0.7,
+        "pace": 0.6
+      },
+      "visualTheme": "garden_city",
+      "skyboxPreset": "pleasant_bangalore",
+      "description": "A batting paradise at altitude. Short boundaries and high-scoring matches.",
+      "unlockStage": 5,
+      "ambience": "festive",
+      "outfieldSpeed": 0.9
+    },
+    {
+      "stadiumId": "gully_ground_01",
+      "name": "Mohalla Ground",
+      "location": "Local Neighborhood",
+      "type": "local",
+      "capacity": 50,
+      "pitchType": "spin",
+      "pitchBehavior": {
+        "seam": 0.2,
+        "spin": 0.8,
+        "bounce": 0.3,
+        "pace": 0.3
+      },
+      "visualTheme": "dusty_street",
+      "skyboxPreset": "warm_afternoon",
+      "description": "A narrow lane between houses. Tennis ball, tape on one side, and chalk stumps on the wall.",
+      "unlockStage": 1,
+      "ambience": "casual",
+      "outfieldSpeed": 0.5
+    },
+    {
+      "stadiumId": "gully_ground_02",
+      "name": "Park Maidan",
+      "location": "City Park",
+      "type": "local",
+      "capacity": 200,
+      "pitchType": "balanced",
+      "pitchBehavior": {
+        "seam": 0.4,
+        "spin": 0.5,
+        "bounce": 0.4,
+        "pace": 0.4
+      },
+      "visualTheme": "green_park",
+      "skyboxPreset": "golden_morning",
+      "description": "An open ground in the city park. Uneven surface, big boundaries, and morning dew.",
+      "unlockStage": 1,
+      "ambience": "relaxed",
+      "outfieldSpeed": 0.6
+    },
+    {
+      "stadiumId": "gully_ground_03",
+      "name": "School Playground",
+      "location": "Local School",
+      "type": "local",
+      "capacity": 500,
+      "pitchType": "fast",
+      "pitchBehavior": {
+        "seam": 0.5,
+        "spin": 0.3,
+        "bounce": 0.6,
+        "pace": 0.55
+      },
+      "visualTheme": "school_yard",
+      "skyboxPreset": "bright_noon",
+      "description": "A concrete pitch in the school playground. True bounce and quick outfield.",
+      "unlockStage": 2,
+      "ambience": "youthful",
+      "outfieldSpeed": 0.85
+    }
+  ]
+}

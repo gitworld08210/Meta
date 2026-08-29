@@ -1,0 +1,244 @@
+{
+  "careerStages": [
+    {
+      "stageId": 1,
+      "name": "Gully Cricket",
+      "description": "Start your journey in the streets. Play tape-ball cricket with neighborhood friends in narrow lanes and open grounds.",
+      "unlockRequirements": {
+        "winsNeeded": 0,
+        "xpThreshold": 0
+      },
+      "difficulty": {
+        "min": 0.1,
+        "max": 0.3,
+        "bowlingSpeedRange": {
+          "min": 60,
+          "max": 90
+        },
+        "aiAccuracy": 0.3
+      },
+      "availableMatchTypes": ["quickMatch"],
+      "oversOptions": [5, 10],
+      "rewards": {
+        "winCoins": 50,
+        "lossCoins": 10,
+        "winXP": 100,
+        "lossXP": 25,
+        "bonusPerformanceMultiplier": 1.0
+      },
+      "unlocks": ["basic_bat_skin"],
+      "environment": "street",
+      "description_short": "Street cricket with friends"
+    },
+    {
+      "stageId": 2,
+      "name": "School Tournament",
+      "description": "Represent your school in the inter-school cricket tournament. Proper pitches, leather ball, and umpires for the first time.",
+      "unlockRequirements": {
+        "winsNeeded": 3,
+        "xpThreshold": 250
+      },
+      "difficulty": {
+        "min": 0.2,
+        "max": 0.4,
+        "bowlingSpeedRange": {
+          "min": 80,
+          "max": 110
+        },
+        "aiAccuracy": 0.4
+      },
+      "availableMatchTypes": ["quickMatch", "practiceNet"],
+      "oversOptions": [10, 15, 20],
+      "rewards": {
+        "winCoins": 100,
+        "lossCoins": 20,
+        "winXP": 200,
+        "lossXP": 50,
+        "bonusPerformanceMultiplier": 1.2
+      },
+      "unlocks": ["school_jersey", "practice_net_mode"],
+      "environment": "school_ground",
+      "description_short": "Inter-school competition"
+    },
+    {
+      "stageId": 3,
+      "name": "District Championship",
+      "description": "Compete in district-level selection trials. Scouts are watching - perform well to get noticed for state selection.",
+      "unlockRequirements": {
+        "winsNeeded": 8,
+        "xpThreshold": 750
+      },
+      "difficulty": {
+        "min": 0.3,
+        "max": 0.5,
+        "bowlingSpeedRange": {
+          "min": 100,
+          "max": 125
+        },
+        "aiAccuracy": 0.5
+      },
+      "availableMatchTypes": ["quickMatch", "practiceNet"],
+      "oversOptions": [15, 20, 30],
+      "rewards": {
+        "winCoins": 200,
+        "lossCoins": 40,
+        "winXP": 350,
+        "lossXP": 75,
+        "bonusPerformanceMultiplier": 1.4
+      },
+      "unlocks": ["district_cap", "advanced_shots_training"],
+      "environment": "district_ground",
+      "description_short": "Regional selection trials"
+    },
+    {
+      "stageId": 4,
+      "name": "State Trophy",
+      "description": "Play in the state-level Ranji-style tournament. Multi-day matches, professional infrastructure, and intense competition.",
+      "unlockRequirements": {
+        "winsNeeded": 15,
+        "xpThreshold": 1800
+      },
+      "difficulty": {
+        "min": 0.4,
+        "max": 0.6,
+        "bowlingSpeedRange": {
+          "min": 115,
+          "max": 138
+        },
+        "aiAccuracy": 0.6
+      },
+      "availableMatchTypes": ["quickMatch", "practiceNet", "multiDay"],
+      "oversOptions": [20, 30, 50],
+      "rewards": {
+        "winCoins": 400,
+        "lossCoins": 80,
+        "winXP": 500,
+        "lossXP": 100,
+        "bonusPerformanceMultiplier": 1.6
+      },
+      "unlocks": ["state_blazer", "replay_camera"],
+      "environment": "state_stadium",
+      "description_short": "State-level Ranji-style tournament"
+    },
+    {
+      "stageId": 5,
+      "name": "IPL Contract",
+      "description": "You have been picked up by a franchise in the premier T20 league! Face world-class bowlers in electrifying stadiums.",
+      "unlockRequirements": {
+        "winsNeeded": 25,
+        "xpThreshold": 3500
+      },
+      "difficulty": {
+        "min": 0.5,
+        "max": 0.7,
+        "bowlingSpeedRange": {
+          "min": 125,
+          "max": 148
+        },
+        "aiAccuracy": 0.7
+      },
+      "availableMatchTypes": ["quickMatch", "practiceNet", "t20"],
+      "oversOptions": [20],
+      "rewards": {
+        "winCoins": 800,
+        "lossCoins": 150,
+        "winXP": 750,
+        "lossXP": 150,
+        "bonusPerformanceMultiplier": 1.8
+      },
+      "unlocks": ["franchise_jersey", "t20_mode", "premium_bat_skins"],
+      "environment": "ipl_stadium",
+      "description_short": "Franchise T20 league"
+    },
+    {
+      "stageId": 6,
+      "name": "National Selection",
+      "description": "Attend the national selection camp. Prove your mettle against the best domestic players to earn your national cap.",
+      "unlockRequirements": {
+        "winsNeeded": 35,
+        "xpThreshold": 5500
+      },
+      "difficulty": {
+        "min": 0.6,
+        "max": 0.8,
+        "bowlingSpeedRange": {
+          "min": 130,
+          "max": 150
+        },
+        "aiAccuracy": 0.75
+      },
+      "availableMatchTypes": ["quickMatch", "practiceNet", "t20", "selectionTrial"],
+      "oversOptions": [10, 20, 50],
+      "rewards": {
+        "winCoins": 1200,
+        "lossCoins": 200,
+        "winXP": 1000,
+        "lossXP": 200,
+        "bonusPerformanceMultiplier": 2.0
+      },
+      "unlocks": ["national_cap", "selection_trial_mode", "gold_bat"],
+      "environment": "national_academy",
+      "description_short": "Selection camp for national team"
+    },
+    {
+      "stageId": 7,
+      "name": "International Debut",
+      "description": "Don the national colors and face international opposition. Bilateral series across iconic venues around the world.",
+      "unlockRequirements": {
+        "winsNeeded": 45,
+        "xpThreshold": 8000
+      },
+      "difficulty": {
+        "min": 0.7,
+        "max": 0.9,
+        "bowlingSpeedRange": {
+          "min": 135,
+          "max": 155
+        },
+        "aiAccuracy": 0.85
+      },
+      "availableMatchTypes": ["quickMatch", "practiceNet", "t20", "odi"],
+      "oversOptions": [20, 50],
+      "rewards": {
+        "winCoins": 2000,
+        "lossCoins": 300,
+        "winXP": 1500,
+        "lossXP": 300,
+        "bonusPerformanceMultiplier": 2.5
+      },
+      "unlocks": ["national_jersey", "odi_mode", "international_stadiums", "diamond_bat"],
+      "environment": "international_venue",
+      "description_short": "Bilateral series and tours"
+    },
+    {
+      "stageId": 8,
+      "name": "World Cup",
+      "description": "The pinnacle of cricket. Lead your nation in the ICC World Cup campaign against the best teams on the planet.",
+      "unlockRequirements": {
+        "winsNeeded": 60,
+        "xpThreshold": 12000
+      },
+      "difficulty": {
+        "min": 0.8,
+        "max": 1.0,
+        "bowlingSpeedRange": {
+          "min": 140,
+          "max": 160
+        },
+        "aiAccuracy": 0.9
+      },
+      "availableMatchTypes": ["quickMatch", "practiceNet", "t20", "odi", "worldCup"],
+      "oversOptions": [20, 50],
+      "rewards": {
+        "winCoins": 5000,
+        "lossCoins": 500,
+        "winXP": 3000,
+        "lossXP": 500,
+        "bonusPerformanceMultiplier": 3.0
+      },
+      "unlocks": ["world_cup_trophy", "legendary_bat", "champion_title", "all_stadiums"],
+      "environment": "world_cup_venue",
+      "description_short": "ICC World Cup campaign"
+    }
+  ]
+}

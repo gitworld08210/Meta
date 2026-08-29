@@ -1,0 +1,294 @@
+{
+  "teams": [
+    {
+      "teamId": "bharat_warriors",
+      "name": "Bharat Warriors",
+      "shortName": "BW",
+      "homeVenue": "eden_gardens",
+      "difficulty": 0.85,
+      "colors": {
+        "primary": "#FF6B00",
+        "secondary": "#1A237E",
+        "accent": "#FFD700"
+      },
+      "logo": "team_bw_logo",
+      "description": "The national powerhouse. Known for aggressive batting and fearless cricket.",
+      "roster": [
+        "Vikram Sharma",
+        "Arjun Patel",
+        "Rohit Malhotra",
+        "Suresh Nair",
+        "Karthik Reddy",
+        "Anil Verma",
+        "Deepak Singh",
+        "Rajesh Kumar",
+        "Manish Yadav",
+        "Pradeep Joshi",
+        "Amit Chauhan"
+      ],
+      "strengths": ["batting", "spin"],
+      "weaknesses": ["fast_bowling_on_bouncy_pitches"]
+    },
+    {
+      "teamId": "mumbai_mavericks",
+      "name": "Mumbai Mavericks",
+      "shortName": "MM",
+      "homeVenue": "wankhede",
+      "difficulty": 0.75,
+      "colors": {
+        "primary": "#0D47A1",
+        "secondary": "#FFD700",
+        "accent": "#FFFFFF"
+      },
+      "logo": "team_mm_logo",
+      "description": "The city of dreams' pride. A balanced squad with street-smart cricketers.",
+      "roster": [
+        "Rahul Deshmukh",
+        "Sachin Tendulkar Jr",
+        "Ajinkya Patil",
+        "Shardul Kulkarni",
+        "Prithvi Shinde",
+        "Siddhesh More",
+        "Tushar Deshpande",
+        "Aakash Jha",
+        "Ravi Sawant",
+        "Nitin Pawar",
+        "Varun Naik"
+      ],
+      "strengths": ["batting", "pace"],
+      "weaknesses": ["spin_on_turning_tracks"]
+    },
+    {
+      "teamId": "chennai_kings",
+      "name": "Chennai Kings",
+      "shortName": "CK",
+      "homeVenue": "chinnaswamy",
+      "difficulty": 0.80,
+      "colors": {
+        "primary": "#FFC107",
+        "secondary": "#1565C0",
+        "accent": "#FFFFFF"
+      },
+      "logo": "team_ck_logo",
+      "description": "The southern fortress. Masters of spin bowling and patient batting.",
+      "roster": [
+        "Ashwin Raman",
+        "Dinesh Karthik",
+        "Murali Vijay",
+        "Ravichandran Sundar",
+        "Varun Chakraborty",
+        "Natarajan Selvam",
+        "Sai Kishore",
+        "Jagadeesan Narayan",
+        "Shahrukh Raj",
+        "Washington Sundaram",
+        "Gowtham Krishnan"
+      ],
+      "strengths": ["spin", "experience"],
+      "weaknesses": ["pace_in_overseas_conditions"]
+    },
+    {
+      "teamId": "delhi_dynamos",
+      "name": "Delhi Dynamos",
+      "shortName": "DD",
+      "homeVenue": "mohali",
+      "difficulty": 0.70,
+      "colors": {
+        "primary": "#D32F2F",
+        "secondary": "#212121",
+        "accent": "#FFEB3B"
+      },
+      "logo": "team_dd_logo",
+      "description": "Young and fearless. A team built on raw talent and explosive batting.",
+      "roster": [
+        "Shikhar Dhawan Jr",
+        "Rishabh Bansal",
+        "Navdeep Saini",
+        "Ishant Bhardwaj",
+        "Nitish Rana",
+        "Lalit Yadav",
+        "Axar Patel",
+        "Anrich Nortje",
+        "Khaleel Ahmed",
+        "Yash Dhull",
+        "Ayush Badoni"
+      ],
+      "strengths": ["pace", "power_hitting"],
+      "weaknesses": ["consistency", "spin_bowling"]
+    },
+    {
+      "teamId": "kolkata_knights",
+      "name": "Kolkata Knights",
+      "shortName": "KK",
+      "homeVenue": "eden_gardens",
+      "difficulty": 0.75,
+      "colors": {
+        "primary": "#4A148C",
+        "secondary": "#FFD700",
+        "accent": "#FFFFFF"
+      },
+      "logo": "team_kk_logo",
+      "description": "The city of joy's champions. Known for mystery spinners and clinical chases.",
+      "roster": [
+        "Shreyas Iyer",
+        "Venkatesh Prasad",
+        "Sunil Narine Jr",
+        "Andre Russell Jr",
+        "Varun Chopra",
+        "Nitish Kumar",
+        "Rinku Singh",
+        "Umesh Yadav",
+        "Shardul Thakur",
+        "Rahmanullah Gurbaz",
+        "Phil Salt"
+      ],
+      "strengths": ["mystery_spin", "death_bowling"],
+      "weaknesses": ["top_order_consistency"]
+    },
+    {
+      "teamId": "bangalore_bulls",
+      "name": "Bangalore Bulls",
+      "shortName": "BB",
+      "homeVenue": "chinnaswamy",
+      "difficulty": 0.72,
+      "colors": {
+        "primary": "#B71C1C",
+        "secondary": "#000000",
+        "accent": "#FFD700"
+      },
+      "logo": "team_bb_logo",
+      "description": "The Garden City warriors. Explosive batting lineup on batting-friendly surfaces.",
+      "roster": [
+        "Virat Kapoor",
+        "Faf du Plessis Jr",
+        "Glenn Maxwell Jr",
+        "Dinesh Kumar",
+        "Rajat Patidar",
+        "Shahbaz Ahmed",
+        "Wanindu Hasaranga Jr",
+        "Harshal Patel",
+        "Mohammed Siraj",
+        "Josh Hazlewood Jr",
+        "Anuj Rawat"
+      ],
+      "strengths": ["batting", "big_match_players"],
+      "weaknesses": ["death_bowling", "pressure_situations"]
+    },
+    {
+      "teamId": "hyderabad_hawks",
+      "name": "Hyderabad Hawks",
+      "shortName": "HH",
+      "homeVenue": "mohali",
+      "difficulty": 0.68,
+      "colors": {
+        "primary": "#FF5722",
+        "secondary": "#000000",
+        "accent": "#FFFFFF"
+      },
+      "logo": "team_hh_logo",
+      "description": "The Deccan warriors. Built on a strong bowling attack and smart cricket.",
+      "roster": [
+        "Abhishek Sharma",
+        "Travis Head Jr",
+        "Heinrich Klaasen Jr",
+        "Aiden Markram Jr",
+        "Rahul Tripathi",
+        "Nitish Reddy",
+        "Bhuvneshwar Kumar",
+        "T Natarajan",
+        "Umran Malik",
+        "Marco Jansen Jr",
+        "Mayank Agarwal"
+      ],
+      "strengths": ["bowling", "fielding"],
+      "weaknesses": ["middle_order_depth"]
+    },
+    {
+      "teamId": "punjab_panthers",
+      "name": "Punjab Panthers",
+      "shortName": "PP",
+      "homeVenue": "mohali",
+      "difficulty": 0.65,
+      "colors": {
+        "primary": "#E91E63",
+        "secondary": "#FFFFFF",
+        "accent": "#C62828"
+      },
+      "logo": "team_pp_logo",
+      "description": "The lion-hearted Punjabis. Powerful hitters who can decimate any bowling attack on their day.",
+      "roster": [
+        "Shikhar Dhawan",
+        "Jonny Bairstow Jr",
+        "Liam Livingstone Jr",
+        "Sam Curran Jr",
+        "Jitesh Sharma",
+        "Harpreet Brar",
+        "Arshdeep Singh",
+        "Kagiso Rabada Jr",
+        "Rahul Chahar",
+        "Nathan Ellis Jr",
+        "Prabhsimran Singh"
+      ],
+      "strengths": ["power_hitting", "pace_bowling"],
+      "weaknesses": ["spin_on_slow_pitches", "consistency"]
+    },
+    {
+      "teamId": "rajasthan_royals",
+      "name": "Rajasthan Royals",
+      "shortName": "RR",
+      "homeVenue": "wankhede",
+      "difficulty": 0.73,
+      "colors": {
+        "primary": "#E040FB",
+        "secondary": "#1565C0",
+        "accent": "#FFD700"
+      },
+      "logo": "team_rr_logo",
+      "description": "The royal underdogs. Known for nurturing young talent and punching above their weight.",
+      "roster": [
+        "Sanju Samson",
+        "Jos Buttler Jr",
+        "Yashasvi Jaiswal",
+        "Shimron Hetmyer Jr",
+        "Riyan Parag",
+        "Ravichandran Ashwin",
+        "Trent Boult Jr",
+        "Prasidh Krishna",
+        "Yuzvendra Chahal",
+        "Obed McCoy Jr",
+        "Devdutt Padikkal"
+      ],
+      "strengths": ["young_talent", "adaptability"],
+      "weaknesses": ["depth_in_bowling"]
+    },
+    {
+      "teamId": "gujarat_titans",
+      "name": "Gujarat Titans",
+      "shortName": "GT",
+      "homeVenue": "wankhede",
+      "difficulty": 0.78,
+      "colors": {
+        "primary": "#1A237E",
+        "secondary": "#CFD8DC",
+        "accent": "#FFB300"
+      },
+      "logo": "team_gt_logo",
+      "description": "The new titans. A team that thrives under pressure with smart captaincy and match awareness.",
+      "roster": [
+        "Hardik Pandya",
+        "Shubman Gill",
+        "David Miller Jr",
+        "Rashid Khan Jr",
+        "Rahul Tewatia",
+        "Vijay Shankar",
+        "Mohammed Shami Jr",
+        "Alzarri Joseph Jr",
+        "Noor Ahmad",
+        "Wriddhiman Saha",
+        "Abhinav Manohar"
+      ],
+      "strengths": ["death_overs", "leadership"],
+      "weaknesses": ["top_order_against_quality_pace"]
+    }
+  ]
+}

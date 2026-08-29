@@ -1,0 +1,17 @@
+{
+    "name": "MetaCricket.Camera",
+    "rootNamespace": "MetaCricket.Camera",
+    "references": [
+        "MetaCricket.Core",
+        "MetaCricket.VFX"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

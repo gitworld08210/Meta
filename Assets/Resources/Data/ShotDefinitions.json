@@ -1,0 +1,356 @@
+{
+  "shots": [
+    {
+      "shotId": "straight_drive",
+      "name": "Straight Drive",
+      "description": "Classical straight bat drive down the ground. The purest shot in cricket.",
+      "category": "drive",
+      "detection": {
+        "armAngleRange": {
+          "min": -10,
+          "max": 15
+        },
+        "swingPlane": "vertical",
+        "velocityThreshold": {
+          "min": 1.5,
+          "max": 8.0
+        },
+        "wristAngleRange": {
+          "min": -5,
+          "max": 10
+        },
+        "bodyPositionRequired": "front_foot_forward",
+        "minimumConfidence": 0.7
+      },
+      "power": {
+        "min": 0.4,
+        "max": 1.0,
+        "velocityMultiplier": 1.0
+      },
+      "direction": {
+        "coneAngle": 20,
+        "centerAngle": 0,
+        "elevationRange": {
+          "min": -5,
+          "max": 25
+        }
+      },
+      "difficulty": 0.4,
+      "riskReward": {
+        "boundaryChance": 0.35,
+        "wicketRisk": 0.1,
+        "averageRuns": 3.2
+      },
+      "animation": "anim_straight_drive",
+      "soundEffect": "sfx_clean_drive"
+    },
+    {
+      "shotId": "cover_drive",
+      "name": "Cover Drive",
+      "description": "Elegant drive through the cover region. Timing and placement over power.",
+      "category": "drive",
+      "detection": {
+        "armAngleRange": {
+          "min": 20,
+          "max": 45
+        },
+        "swingPlane": "angled_vertical",
+        "velocityThreshold": {
+          "min": 1.5,
+          "max": 7.5
+        },
+        "wristAngleRange": {
+          "min": 10,
+          "max": 35
+        },
+        "bodyPositionRequired": "front_foot_across",
+        "minimumConfidence": 0.7
+      },
+      "power": {
+        "min": 0.3,
+        "max": 0.9,
+        "velocityMultiplier": 0.95
+      },
+      "direction": {
+        "coneAngle": 25,
+        "centerAngle": 35,
+        "elevationRange": {
+          "min": -5,
+          "max": 15
+        }
+      },
+      "difficulty": 0.5,
+      "riskReward": {
+        "boundaryChance": 0.30,
+        "wicketRisk": 0.15,
+        "averageRuns": 2.8
+      },
+      "animation": "anim_cover_drive",
+      "soundEffect": "sfx_sweet_timing"
+    },
+    {
+      "shotId": "pull_shot",
+      "name": "Pull Shot",
+      "description": "Cross-bat shot to the leg side. Played to short-pitched deliveries at body height.",
+      "category": "cross_bat",
+      "detection": {
+        "armAngleRange": {
+          "min": 60,
+          "max": 110
+        },
+        "swingPlane": "horizontal",
+        "velocityThreshold": {
+          "min": 2.5,
+          "max": 10.0
+        },
+        "wristAngleRange": {
+          "min": 30,
+          "max": 80
+        },
+        "bodyPositionRequired": "back_foot_pivot",
+        "minimumConfidence": 0.65
+      },
+      "power": {
+        "min": 0.5,
+        "max": 1.0,
+        "velocityMultiplier": 1.15
+      },
+      "direction": {
+        "coneAngle": 40,
+        "centerAngle": -60,
+        "elevationRange": {
+          "min": 5,
+          "max": 40
+        }
+      },
+      "difficulty": 0.6,
+      "riskReward": {
+        "boundaryChance": 0.45,
+        "wicketRisk": 0.20,
+        "averageRuns": 4.0
+      },
+      "animation": "anim_pull_shot",
+      "soundEffect": "sfx_power_hit"
+    },
+    {
+      "shotId": "hook_shot",
+      "name": "Hook Shot",
+      "description": "Aggressive shot to bouncer-length delivery. Played with the ball above shoulder height.",
+      "category": "cross_bat",
+      "detection": {
+        "armAngleRange": {
+          "min": 90,
+          "max": 140
+        },
+        "swingPlane": "high_horizontal",
+        "velocityThreshold": {
+          "min": 3.0,
+          "max": 10.0
+        },
+        "wristAngleRange": {
+          "min": 50,
+          "max": 100
+        },
+        "bodyPositionRequired": "ducking_sway",
+        "minimumConfidence": 0.6
+      },
+      "power": {
+        "min": 0.6,
+        "max": 1.0,
+        "velocityMultiplier": 1.2
+      },
+      "direction": {
+        "coneAngle": 50,
+        "centerAngle": -75,
+        "elevationRange": {
+          "min": 20,
+          "max": 60
+        }
+      },
+      "difficulty": 0.8,
+      "riskReward": {
+        "boundaryChance": 0.50,
+        "wicketRisk": 0.35,
+        "averageRuns": 4.5
+      },
+      "animation": "anim_hook_shot",
+      "soundEffect": "sfx_aerial_hit"
+    },
+    {
+      "shotId": "cut_shot",
+      "name": "Cut Shot",
+      "description": "Square cut played to short and wide deliveries. Bat comes down on the ball at an angle.",
+      "category": "cross_bat",
+      "detection": {
+        "armAngleRange": {
+          "min": 50,
+          "max": 95
+        },
+        "swingPlane": "downward_lateral",
+        "velocityThreshold": {
+          "min": 2.0,
+          "max": 9.0
+        },
+        "wristAngleRange": {
+          "min": 40,
+          "max": 70
+        },
+        "bodyPositionRequired": "back_foot_across",
+        "minimumConfidence": 0.65
+      },
+      "power": {
+        "min": 0.4,
+        "max": 0.95,
+        "velocityMultiplier": 1.05
+      },
+      "direction": {
+        "coneAngle": 30,
+        "centerAngle": 80,
+        "elevationRange": {
+          "min": -5,
+          "max": 20
+        }
+      },
+      "difficulty": 0.55,
+      "riskReward": {
+        "boundaryChance": 0.40,
+        "wicketRisk": 0.18,
+        "averageRuns": 3.5
+      },
+      "animation": "anim_cut_shot",
+      "soundEffect": "sfx_slash_cut"
+    },
+    {
+      "shotId": "sweep",
+      "name": "Sweep Shot",
+      "description": "Front foot sweep against spin bowling. Low body position with horizontal bat arc.",
+      "category": "sweep",
+      "detection": {
+        "armAngleRange": {
+          "min": 40,
+          "max": 90
+        },
+        "swingPlane": "low_horizontal",
+        "velocityThreshold": {
+          "min": 1.5,
+          "max": 7.0
+        },
+        "wristAngleRange": {
+          "min": 20,
+          "max": 60
+        },
+        "bodyPositionRequired": "low_crouch_front_foot",
+        "minimumConfidence": 0.65
+      },
+      "power": {
+        "min": 0.3,
+        "max": 0.85,
+        "velocityMultiplier": 0.9
+      },
+      "direction": {
+        "coneAngle": 45,
+        "centerAngle": -45,
+        "elevationRange": {
+          "min": -5,
+          "max": 30
+        }
+      },
+      "difficulty": 0.6,
+      "riskReward": {
+        "boundaryChance": 0.30,
+        "wicketRisk": 0.22,
+        "averageRuns": 2.5
+      },
+      "animation": "anim_sweep",
+      "soundEffect": "sfx_sweep_roll"
+    },
+    {
+      "shotId": "defensive_block",
+      "name": "Defensive Block",
+      "description": "Soft hands, dead bat defensive stroke. Minimal backlift with the bat presented vertically.",
+      "category": "defensive",
+      "detection": {
+        "armAngleRange": {
+          "min": -5,
+          "max": 10
+        },
+        "swingPlane": "minimal",
+        "velocityThreshold": {
+          "min": 0.3,
+          "max": 1.5
+        },
+        "wristAngleRange": {
+          "min": -5,
+          "max": 10
+        },
+        "bodyPositionRequired": "front_foot_forward",
+        "minimumConfidence": 0.6
+      },
+      "power": {
+        "min": 0.0,
+        "max": 0.2,
+        "velocityMultiplier": 0.2
+      },
+      "direction": {
+        "coneAngle": 60,
+        "centerAngle": 0,
+        "elevationRange": {
+          "min": -10,
+          "max": 5
+        }
+      },
+      "difficulty": 0.2,
+      "riskReward": {
+        "boundaryChance": 0.0,
+        "wicketRisk": 0.05,
+        "averageRuns": 0.3
+      },
+      "animation": "anim_defensive",
+      "soundEffect": "sfx_soft_block"
+    },
+    {
+      "shotId": "lofted_shot",
+      "name": "Lofted Shot",
+      "description": "Aerial shot hit over the fielders. Full extension with an upward arc through the ball.",
+      "category": "aerial",
+      "detection": {
+        "armAngleRange": {
+          "min": 10,
+          "max": 60
+        },
+        "swingPlane": "upward_arc",
+        "velocityThreshold": {
+          "min": 3.0,
+          "max": 10.0
+        },
+        "wristAngleRange": {
+          "min": 15,
+          "max": 50
+        },
+        "bodyPositionRequired": "full_extension_upward",
+        "minimumConfidence": 0.7
+      },
+      "power": {
+        "min": 0.6,
+        "max": 1.0,
+        "velocityMultiplier": 1.25
+      },
+      "direction": {
+        "coneAngle": 50,
+        "centerAngle": 0,
+        "elevationRange": {
+          "min": 30,
+          "max": 75
+        }
+      },
+      "difficulty": 0.7,
+      "riskReward": {
+        "boundaryChance": 0.55,
+        "wicketRisk": 0.30,
+        "averageRuns": 4.8
+      },
+      "animation": "anim_lofted",
+      "soundEffect": "sfx_big_hit"
+    }
+  ]
+}

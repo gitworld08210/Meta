@@ -1,0 +1,17 @@
+{
+    "name": "MetaCricket.BallPhysics",
+    "rootNamespace": "MetaCricket.BallPhysics",
+    "references": [
+        "MetaCricket.Core",
+        "MetaCricket.ShotDetection"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
