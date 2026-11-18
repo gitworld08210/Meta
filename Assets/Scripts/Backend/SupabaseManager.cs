@@ -99,43 +99,51 @@ namespace MetaCricket.Backend
 
         private async void Initialize()
         {
-            if (_config == null)
+            try
             {
-                Debug.LogError("[SupabaseManager] No SupabaseConfig assigned!");
-                OnError?.Invoke("Backend configuration missing.");
-                return;
+                if (_config == null)
+                {
+                    Debug.LogWarning("[SupabaseManager] No SupabaseConfig assigned! Operating in offline mode.");
+                    OnError?.Invoke("Backend configuration missing.");
+                    return;
+                }
+
+                if (!_config.IsValid())
+                {
+                    Debug.LogWarning("[SupabaseManager] Invalid Supabase configuration. Check project URL and anon key. Operating in offline mode.");
+                    OnError?.Invoke("Invalid backend configuration.");
+                    return;
+                }
+
+                // Create services
+                _auth = new SupabaseAuth(_config);
+                _leaderboardService = new LeaderboardService(_config, _auth);
+                _playerDataService = new PlayerDataService(_config, _auth);
+                _playerDataService.SetAutoSaveInterval(_autoSaveInterval);
+
+                // Subscribe to auth events
+                _auth.OnAuthSuccess += OnAuthSuccess;
+                _auth.OnAuthError += OnAuthError;
+
+                // Register with ServiceLocator
+                ServiceLocator.Register(this);
+
+                _isInitialized = true;
+                OnInitialized?.Invoke();
+
+                if (_config.DebugLogs)
+                    Debug.Log("[SupabaseManager] Backend initialized successfully.");
+
+                // Auto sign-in
+                if (_autoSignInAnonymous && !_auth.IsAuthenticated)
+                {
+                    await AutoSignIn();
+                }
             }
-
-            if (!_config.IsValid())
+            catch (Exception ex)
             {
-                Debug.LogError("[SupabaseManager] Invalid Supabase configuration. Check project URL and anon key.");
-                OnError?.Invoke("Invalid backend configuration.");
-                return;
-            }
-
-            // Create services
-            _auth = new SupabaseAuth(_config);
-            _leaderboardService = new LeaderboardService(_config, _auth);
-            _playerDataService = new PlayerDataService(_config, _auth);
-            _playerDataService.SetAutoSaveInterval(_autoSaveInterval);
-
-            // Subscribe to auth events
-            _auth.OnAuthSuccess += OnAuthSuccess;
-            _auth.OnAuthError += OnAuthError;
-
-            // Register with ServiceLocator
-            ServiceLocator.Register(this);
-
-            _isInitialized = true;
-            OnInitialized?.Invoke();
-
-            if (_config.DebugLogs)
-                Debug.Log("[SupabaseManager] Backend initialized successfully.");
-
-            // Auto sign-in
-            if (_autoSignInAnonymous && !_auth.IsAuthenticated)
-            {
-                await AutoSignIn();
+                Debug.LogError($"[SupabaseManager] Initialization encountered an error: {ex.Message}");
+                OnError?.Invoke($"Backend initialization failure: {ex.Message}");
             }
         }
 

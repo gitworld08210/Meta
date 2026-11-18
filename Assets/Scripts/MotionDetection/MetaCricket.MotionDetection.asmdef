@@ -2,7 +2,8 @@
     "name": "MetaCricket.MotionDetection",
     "rootNamespace": "MetaCricket.MotionDetection",
     "references": [
-        "MetaCricket.Core"
+        "MetaCricket.Core",
+        "Unity.Sentis"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -11,6 +12,12 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.sentis",
+            "expression": "1.0.0",
+            "define": "ENABLE_SENTIS"
+        }
+    ],
     "noEngineReferences": false
 }

@@ -143,6 +143,30 @@ namespace MetaCricket.MotionDetection
             if (!IsTracking)
                 return;
 
+            // Handle keyboard shortcuts for rapid editor testing
+#if UNITY_EDITOR || UNITY_STANDALONE
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                TriggerSwing(_motionPattern != MockMotionPattern.IdleSway ? _motionPattern : MockMotionPattern.CoverDriveSwing);
+            }
+            else if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                TriggerSwing(MockMotionPattern.CoverDriveSwing);
+            }
+            else if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                TriggerSwing(MockMotionPattern.PullShotSwing);
+            }
+            else if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                TriggerSwing(MockMotionPattern.StraightDriveSwing);
+            }
+            else if (Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                TriggerSwing(MockMotionPattern.DefensiveBlockSwing);
+            }
+#endif
+
             // Throttle emission rate
             float emitInterval = 1f / _emitRate;
             if (Time.time - _lastEmitTime < emitInterval)

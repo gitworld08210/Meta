@@ -1,0 +1,29 @@
+{
+    "name": "MetaCricket.Editor",
+    "rootNamespace": "MetaCricket.Editor",
+    "references": [
+        "MetaCricket.Core",
+        "MetaCricket.MotionDetection",
+        "MetaCricket.Calibration",
+        "MetaCricket.ShotDetection",
+        "MetaCricket.BallPhysics",
+        "MetaCricket.MatchEngine",
+        "MetaCricket.CareerMode",
+        "MetaCricket.UI",
+        "MetaCricket.Audio",
+        "MetaCricket.VFX",
+        "MetaCricket.Camera",
+        "MetaCricket.Backend"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
